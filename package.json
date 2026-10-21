@@ -1,0 +1,24 @@
+{
+  "name": "reservations-bot",
+  "version": "2.0.0",
+  "description": "Modular Discord bot for event reservations and death/life row management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "bot", "reservations", "deathrow", "scheduling"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "discord.js": "^14.25.1",
+    "luxon": "^3.7.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
